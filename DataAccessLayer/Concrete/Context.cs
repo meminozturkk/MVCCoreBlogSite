@@ -15,10 +15,6 @@ namespace DataAccessLayer.Concrete
 
     }
 
-        internal object Set<T>(int id)
-        {
-            throw new NotImplementedException();
-        }
 
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
